@@ -49,7 +49,7 @@ This will define the location of your source files.
 
 The `tsc` will compile all the files inside of the root folder (`/exercises`), generating the `.js` compiled files in the dist folder.
 
-To run `tsc` you don't need `script`; just use the command below:
+To run `tsc` you don't need `script` just use the command below:
 
 ```bash
 nxp tsc
@@ -84,8 +84,8 @@ Exercise 2: Create and Manipulate an Array
 Exercise 3: Manipulate and Reservations Array
 
 1. Create an array called `reservations` containing the multiple reservations that were created in the previous exercises.
-2. Add new property in the `reservation` interface for `pricePerDay`.
-3. Change the property paymentInformation to be an interface of `isPayed`, `totalPrice`.
+2. Add new property in the `reservation` type for `pricePerDay`.
+3. Change the property paymentInformation to be an type of `isPayed`, `totalPrice`.
 4. Calculate the price using the difference between `checkIn` and `checkOut`. Use the type `Date` and check how you can get the difference in days between two dates.
    Eg: Define a price per day and make the multiplication. If the reservation is two days, make the correct calculation.
 5. Add new reservation to the array.
@@ -95,14 +95,14 @@ Exercise 4: Create a Tuple
 
 1. Create a tuple called `coordinate` with two elements: a number representing the x-coordinate and a number representing the y-coordinate.
 2. Assign values to the tuple elements.
-3. Create an interface of location with the properties `description` and the tuple that you created.
-4. Print out the interface and coordinates.
+3. Create an type of location with the properties `description` and the tuple that you created.
+4. Print out the type and coordinates.
 
 Exercise 5: Create an Enum
 
 1. Create an enum called `Day` with values representing the days of the week (e.g., Sunday, Monday, etc.).
 2. Declare variables using the `Day` enum to represent the current day and print it.
-3. Create an interface of `Race`, add some properties, like participants, first, second and third places, and also the `day` of the race using the enum.
+3. Create an type of `Race`, add some properties, like participants, first, second and third places, and also the `day` of the race using the enum.
 
 Exercise 6: Union Types for Function Parameters
 
