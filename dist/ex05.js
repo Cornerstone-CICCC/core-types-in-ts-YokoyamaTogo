@@ -14,9 +14,9 @@ const currentDay = Day.Wednesday;
 console.log("Current day:", Day[currentDay]);
 const race = {
     name: "City Sprint",
-    participants: ["Aki", "Mina", "Ken"],
-    first: "Aki",
-    second: "Ken",
+    participants: ["Bob", "Mina", "Alice"],
+    first: "Bob",
+    second: "Alice",
     third: "Mina",
     day: Day.Saturday,
 };
